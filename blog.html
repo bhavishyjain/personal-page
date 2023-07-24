@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        body {
+            margin: 0 !important;
+        }
+        .hero-bg {
+            background-image: url('nature.png');
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-size: cover;
+            background-position: bottom;
+            max-width: 100%;
+            max-height: 100%;
+            padding: 20%;
+            height: 300px;
+
+        }
+        .name {
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: none
+        }
+        .navbar a {
+            font-size: 14px;
+            color: white;
+            font-weight:700;
+            font-family:'Montserrat', sans-serif;
+            text-decoration: none;
+            margin-left:100px;
+        }
+        .content {
+            font-size: 80px;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0 auto;
+            /* margin-top: 20%; */
+            /* width: 50%; */
+            text-align: center;
+            justify-content: center;
+            vertical-align: middle;
+            color: white
+        }
+        .header {
+            /* min-height: 3em; */
+            position:fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding:20px 0px;
+            display: flex;
+            align-items: center;
+            z-index: 100;
+            color: white;
+            justify-content: space-around
+        }
+        /* html:not([data-scroll='0']) body {
+            padding-top: 3em;
+        }
+         html:not([data-scroll='0']) header {
+            position: fixed;
+            top: 0;
+            z-index: 1;
+            box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+        } */
+        .inline-container{
+            display: inline-block;
+            word-wrap: normal;
+        }
+        .flex-container{
+            display: flex;
+            word-wrap: normal;
+        }
+        .icons {
+            text-decoration: none;
+        }
+        footer{
+            font-weight: 100 !important;
+            font-family: 'Montserrat', sans-serif;
+            background-color: rgb(30,30,30);
+            color: white;
+        }
+        ul {
+            display: inline-block !important;
+            margin-right: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="name">BHAVISHY</a>
+        <nav class="navbar">
+            <a href="#">ABOUT ME</a>
+            <a href="#">WORK</a>
+            <a href="#">CONTACT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>
+    <div class="hero-bg">
+        <div class="content">
+            <centre>HELLO</centre>
+            <p style="font-size: 25px;">I am a Developer</p>
+            <div class="inline-container"> 
+                <a class="icons" href = "https://wa.me/7000415002" target="blank">
+                    <img src="whatsapp1.png" width="25px" height="25px" alt="Whatsapp">
+                </a> 
+                <a class="icons" href = "https://www.github.com" target="blank">
+                    <img src="github1.png" width="25px" height="25px" alt="Github">
+                </a>
+                <a class="icons" href = "https://www.instagram.com" target="blank">
+                    <img src="instagram1.png" width="22px" height="23px" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="flex-container" style="margin: 3% !important">
+            <img src="https://source.unsplash.com/featured/300x401" width="300px" height="401px" alt="Bhavishy's Life">
+            <div class = "inline-container">
+                <p style="margin:0 30px 0 500px; font-size: 80px !important; text-align: right"> Bhavishy Jain </p>
+                <br>
+                <p style="margin:0 30px 0 125px; font-size: 15px !important; text-align: right">I am a fresh and eager small programmer, diving headfirst into the world of coding. Although I am still in the early stages of my programming journey, 
+                    I approach every coding task with enthusiasm and a willingness to learn. Embracing the challenges that come my way, I am dedicated to improving my coding skills and understanding the intricacies of various programming languages. 
+                    With each line of code I write, I am steadily building my foundation and gaining the confidence to tackle more complex projects. As a new small programmer, 
+                    I am excited to explore the endless possibilities that coding offers and look forward to making meaningful contributions in the digital realm.
+                </p>
+            </div>
+    </div>
+    <div class="flex-container" style="margin: 3% !important">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, eius quas recusandae, ipsam exercitationem eligendi cumque consectetur voluptas expedita optio accusantium alias odit perferendis est soluta inventore magni repellendus aut.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis laborum harum eveniet perferendis numquam soluta, dignissimos deserunt atque aliquam enim labore tempora explicabo odit mollitia dolore dolor laboriosam autem quibusdam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure mollitia, quibusdam, dolor sint eveniet odio blanditiis minus expedita voluptate aperiam esse cum sed eius, error numquam modi maxime aspernatur ratione.
+        </p>
+        <img style="margin: 20px 0 0 100px" src="https://source.unsplash.com/featured/300x400" width="300px" height="400px" alt="Bhavishy's Life">
+    </div>
+    <footer>
+        <div  class="flex-container">
+            <div>
+                <p style="margin: 50px 0 0 150px;">A creative website by Bhavishy </p>
+                <br>
+                <div class="inline-container">
+                    <div class="flex-container">
+                        <p style="margin: 20px 0 0 150px;">bhavishy2206@gmail.com </p>
+                        <ul style="margin: 20px 0 0 -15px;">
+                            <li>+917000415002</li>
+                        </ul>
+                    </div>
+                    <p style="margin: 10px 0 0 150px;">Dhar, Madhya Pradesh, India</p>
+                </div>
+            </div>
+            <p style="margin: 200px 0 20px 50px;"> Copyright 2023 Bhavishy Inc. All Rights Reserved </p>
+            <div style="margin: 40px 0 0 330px;">
+                FOLLOW ME
+            </div>
+            
+        </div>
+        
+    </footer>
+</body>
+</html>
